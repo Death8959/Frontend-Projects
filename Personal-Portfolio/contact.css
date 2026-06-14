@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li a {
+    color: #c0c0e0;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+main {
+    max-width: 860px;
+    margin: 60px auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+#contact-info h2,
+#contact-form-section h2 {
+    font-size: 1.4rem;
+    color: #1a1a2e;
+    margin-bottom: 16px;
+}
+
+#contact-info p {
+    color: #444;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+}
+
+#contact-info ul {
+    list-style: none;
+}
+
+#contact-info ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+#contact-info ul li a {
+    color: #4a90d9;
+    text-decoration: none;
+}
+
+#contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background-color: #fff;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4a90d9;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #1a1a2e;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #4a90d9;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background-color: #1a1a2e;
+    color: #888;
+    font-size: 0.85rem;
+    margin-top: 60px;
+}
